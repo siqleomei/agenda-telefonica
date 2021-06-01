@@ -26,7 +26,7 @@ Antes de iniciar o projeto você deve ter instalado em sua máquina as tecnologi
 
 ```bash
 # Clonar este repositório em seu workspace do Eclipse
-$ git clone https://github.com/siqleomei/agenda-telefonica
+$ git clone https://github.com/siqleomei/agenda-telefonica.git
 
 # Abra seu eclipse com o workspace deste projeto.
 
