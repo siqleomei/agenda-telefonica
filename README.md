@@ -28,8 +28,14 @@ Antes de iniciar o projeto você deve ter instalado em sua máquina as tecnologi
 # Clonar este repositório em seu workspace do Eclipse
 $ git clone https://github.com/siqleomei/agenda-telefonica.git
 
-# Abra seu eclipse com o workspace deste projeto.
+# 1º - Abra o Eclipse;
+# 2º - Selecione o Workspace em que o projeto se encontra;
+# 3º - Dentro do Eclipse, siga o caminho de menu File -> Import -> General -> Existing Projects into Workspace;
+# 4º - Selecione a opção "Select root directory";
+# 5º - Clique no botão "Browse..." e encontre a pasta do projeto;
+# 6º - Clique em finish.
 
+## Banco de dados:
 # Crie um schema no MySQL Workbench (localhost, port 3306) com o nome de "bd_agendatelefonica".
 # Neste banco, crie a tabela "tb_contato" com os campos:
 'id' int PRIMARY KEY AUTO INCREMENT,
@@ -37,7 +43,10 @@ $ git clone https://github.com/siqleomei/agenda-telefonica.git
 'telefone' varchar(12),
 'endereco' varchar(200)
 
-# Após criar o banco, volte ao eclipse e de um F11 para rodar o projeto.
+# Após criar o banco, volte ao eclipse, no projeto navegue para:
+# agenda-telefonica -> src -> br.com.agendatelefonica.view -> JFAgendaTelefonica.java
+
+# Agora de um F11 para rodar o projeto.
 ```
 
 # Autor
